@@ -1,0 +1,21 @@
+{
+    "name": "jefflikeschicken/resource-authorization",
+    "description": "Allows an OAuth2 resource server to be loosely coupled to an authentication server",
+    "type": "library",
+    "require": {
+        "lucadegasperi/oauth2-server-laravel": "5.0.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Lambert",
+            "email": "jefflikeschicken@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jeffsrepoaccount\\ResourceAuthorization\\": "src/"
+        }
+    }
+}
