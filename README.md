@@ -50,7 +50,6 @@ class MyApiController
 
 If you want to keep everything about your user accounts in a different database so that the only tables your resource database contains are resources, change the `$connection` property on the `App\User` model and add the connection details to `config/database.php': 
 
-
 ```php
 <?php namespace App;
 
