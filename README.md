@@ -58,8 +58,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     protected $connection = 'accounts';    
 }
 ```
-
-``php
+```php
 // config/database.php
 return [
     'connections' => [
