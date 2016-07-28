@@ -22,7 +22,6 @@ class ServiceProvider extends BaseProvider
      */
     public function register()
     {
-        die('still got vendor service provider!!!!');
         //
         $app = $this->app;
 
