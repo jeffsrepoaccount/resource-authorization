@@ -86,7 +86,3 @@ return [
     'database' => 'accounts',
 ];
 ```
-
-### Authorization vs Access Control
-
-This package _authorizes_ requests by access token handed to the resource server and supplies each request with the user instance that currently owns a valid access token.  This package does not verify scope level access to resources since that is application specific.
